@@ -12,7 +12,8 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    position:relative;
 }
 
 #header {
@@ -374,3 +375,42 @@ a.latest-title {
     font-weight: 600;
     margin-top: 70px;
 }
+
+.actual-new-section-title {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.actual-new-section-title::before {
+    content: " ";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: #17206a;
+    top: 39px;
+    left: 12px;
+    border-radius: 100%;
+}
+
+.actual-new-section-title::after {
+    content: " ";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    background-color: #fff;
+    top: 43px;
+    left: 16px;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
