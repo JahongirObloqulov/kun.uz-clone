@@ -5,6 +5,16 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1490px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
 #header {
     margin-bottom: 15px;
 }
@@ -12,6 +22,7 @@ body {
 .header-content {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .nav-list {
@@ -112,4 +123,254 @@ body {
     font-size: 12px;
     padding-left: 10px;
     border-left: 1px solid #585858;
+}
+
+.nav-region__item a:hover {
+    color: #003bb3;
+}
+
+.main-new {
+    display: flex;
+    margin-top: 10px;
+}
+
+.top-news{
+    width: 75%;
+}
+
+.top-big-news {
+    width: 100%;
+}
+
+.big-new {
+    background-color: #EFF2F8;
+    margin-bottom: 30px;
+}
+
+.big-new-img {
+
+}
+
+.big-new-content{
+    padding: 20px;
+}
+
+.news-meta {
+    column-gap: 5px;
+    margin-bottom: 10px;
+    color: #8f8f8f;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-new-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.big-new-title:hover {
+    color: #003bb3;
+}
+
+.big-new-desc {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #000;
+}
+
+.top-news-small-items {
+    display: flex;
+    flex-flow: wrap row;
+    margin-top: 10px;
+}
+
+.small-news-content {
+    border-bottom: 2px solid #CECECE;
+}
+
+.small-news {
+    display: flex;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.small-news-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.small-news-img {
+    width: 25%;
+    padding-right: 15px;
+}
+.small-news-img img {
+    width: 175px;
+    height: 113px;
+}
+
+
+.small-news-title:hover {
+    color: #003bb3;
+}
+
+.editor-choice {
+
+}
+
+.editor-choice-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+}
+
+.choice-title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.choice-title::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 37%;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #17206A;
+}
+
+.choice-title::after {
+    content: " ";
+    position: absolute;
+    left: 4px;
+    top: 43%;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+a.choice-link {
+    color: #17206A;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+    padding-right: 38px;
+}
+
+.choice-link:hover {
+    color: #003bb3;
+}
+
+.editor-choice-items {
+    margin-bottom: 25px;
+}
+
+.editor-choice-img img {
+    width: 326px;
+    height: 204px;
+    margin-bottom: 15px;
+}
+
+.editor-choice-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.editor-choice-title:hover {
+    color: #003bb3;
+}
+
+.latest-news {
+    width: 25%;
+    padding-left: 10px;
+}
+
+a.latest-title {
+    position: relative;
+}
+
+.latest-title span {
+    padding-left: 20px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+
+.latest-title span::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #17206A;
+}
+
+.latest-title span::after {
+    content: " ";
+    position: absolute;
+    left: 4px;
+    top: 30%;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.latest-news-content {
+    padding: 15px 2px;
+    border-bottom: 1px solid #CECECE;
+}
+
+.latest-news-title {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    color: #000;
+}
+
+.latest-news-title:hover {
+    color: #003bb3;
+}
+
+.latest-news-btn {
+    height: 60px;
+    padding: 15px 25px;
+    background-image: url("../img/silver-arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: center right 12%;
+    background-color: #e9e9e9;
+    border-radius: 0 30px 30px 0;
+    margin-top: 70px;
+    border-left: 4px solid #17206A;
+    cursor: pointer;
+}
+
+.latest-news-btn:hover {
+    background-color: #eef2ff;
+}
+
+.latest-news-btn a {
+    height: 100%;
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 70px;
 }
