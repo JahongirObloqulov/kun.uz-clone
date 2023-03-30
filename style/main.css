@@ -13,7 +13,7 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    position:relative;
+    position: relative;
 }
 
 #header {
@@ -74,7 +74,7 @@ body {
 
 .box {
     background-color: #f0f0f0;
-    
+
 }
 
 .regions {
@@ -111,8 +111,9 @@ body {
 .nav-region__list .nav-region__item:first-child a {
     border: none;
 }
+
 .nav-region__item {
-    
+
     padding: 0 6px;
 }
 
@@ -135,7 +136,7 @@ body {
     margin-top: 10px;
 }
 
-.top-news{
+.top-news {
     width: 75%;
 }
 
@@ -149,7 +150,7 @@ body {
 }
 
 
-.big-new-content{
+.big-new-content {
     padding: 20px;
 }
 
@@ -209,6 +210,7 @@ body {
     width: 25%;
     padding-right: 15px;
 }
+
 .small-news-img img {
     width: 175px;
     height: 113px;
@@ -399,12 +401,30 @@ a.latest-title {
     border-radius: 100%;
 }
 
+.actual-big-new {
+    width: 50%;
+}
 
+.actual-big-new-img img {
+    padding: 0 15px 15px 0;
+    width: 50%;
+    height: 50%;
 
+}
 
+.actual-big-new-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
 
-
-
-
-
-
+.actual-big-new-desc {
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: auto;
+    margin-bottom: 25px;
+}
