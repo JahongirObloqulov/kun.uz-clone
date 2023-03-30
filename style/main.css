@@ -432,3 +432,27 @@ a.latest-title {
     cursor: auto;
     margin-bottom: 25px;
 }
+
+.actual-small-new {
+    display: flex;
+    width: 695px;
+    flex-flow: row wrap;
+    column-gap: 30px;
+}
+
+.actual-small-new-content {
+    margin-bottom: 25px;
+}
+
+
+.actual-small-new-title {
+    color: #000;
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.actual-small-new-title:hover {
+    color: #003bb3;
+}
