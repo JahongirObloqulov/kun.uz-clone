@@ -186,7 +186,7 @@ body {
 .top-news-small-items {
     display: flex;
     flex-flow: wrap row;
-    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .small-news-content {
