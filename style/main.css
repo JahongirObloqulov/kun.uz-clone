@@ -460,3 +460,58 @@ a.latest-title {
 .actual-small-new-title:hover {
     color: #003bb3;
 }
+
+#interview-new-section {
+    background-color: #f0f0f0;
+}
+
+.interview-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+    position: relative;
+    margin-bottom: 25px;
+
+}
+
+.interview-head-title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.interview-head-title::before {
+    content: " ";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: #17206a;
+    top: 24px;
+    left: 4px;
+    border-radius: 100%;
+}
+
+.interview-head-title::after {
+    content: " ";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    background-color: #fff;
+    top: 28px;
+    left: 8px;
+    border-radius: 100%;
+}
+
+.interview-head-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2c51d4;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.interview-head-all-img {
+    margin-left: 8px;
+}
